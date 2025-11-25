@@ -462,6 +462,15 @@ public class SalesDataAnalyzer {
             .sorted(Map.Entry.<String, Double>comparingByValue().reversed())
             .forEach(e -> System.out.printf("   %-10s: %6.2f%%%n", e.getKey(), e.getValue()));
         
+        System.out.println("\n17. Distinct Product Count by Region:");
+        getDistinctProductCountByRegion().forEach((region, count) -> 
+        System.out.printf("   %-10s: %d products%n", region, count));
+    
+        System.out.println("\n18. Order Value Distribution (threshold=$500):");
+        Map<Boolean, List<SalesRecord>> partition = partitionOrdersByValue(500.0);
+        System.out.printf("   High Value (>=$500): %d orders%n", partition.get(true).size());
+        System.out.printf("   Low Value (<$500):  %d orders%n", partition.get(false).size());
+    
         System.out.println("\n================================================================");
         System.out.println("                   ANALYSIS COMPLETE                            ");
         System.out.println("================================================================");

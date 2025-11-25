@@ -94,6 +94,16 @@ Total records processed: 30
    East      :  20.77%
    South     :  19.49%
 
+17. Distinct Product Count by Region:
+   West      : 5 products
+   South     : 5 products
+   North     : 5 products
+   East      : 5 products
+
+18. Order Value Distribution (threshold=$500):
+   High Value (>=$500): 21 orders
+   Low Value (<$500):  9 orders
+
 ================================================================
                    ANALYSIS COMPLETE                            
 ================================================================

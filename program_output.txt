@@ -1,0 +1,84 @@
+=== Producer-Consumer Demo ===
+Queue Capacity: 5
+Producers: 2
+Consumers: 2
+Total Items: 20
+================================
+
+Producer-1 produced: Item-1 (Total produced: 2)
+Producer-2 produced: Item-11 (Total produced: 1)
+Producer-2 produced: Item-12 (Total produced: 3)
+Consumer-1 consumed: Item-11 (Total consumed: 1)
+Producer-1 produced: Item-2 (Total produced: 4)
+Consumer-1 consumed: Item-12 (Total consumed: 2)
+Consumer-2 consumed: Item-1 (Total consumed: 3)
+Producer-1 produced: Item-3 (Total produced: 5)
+Producer-2 produced: Item-13 (Total produced: 6)
+Consumer-1 consumed: Item-2 (Total consumed: 4)
+Producer-1 produced: Item-4 (Total produced: 7)
+Consumer-2 consumed: Item-3 (Total consumed: 5)
+Producer-1 produced: Item-5 (Total produced: 8)
+Producer-2 produced: Item-14 (Total produced: 9)
+Consumer-1 consumed: Item-13 (Total consumed: 6)
+Consumer-2 consumed: Item-4 (Total consumed: 7)
+Producer-1 produced: Item-6 (Total produced: 10)
+Producer-2 produced: Item-15 (Total produced: 11)
+Consumer-1 consumed: Item-5 (Total consumed: 8)
+Consumer-2 consumed: Item-14 (Total consumed: 9)
+Producer-1 produced: Item-7 (Total produced: 12)
+Producer-2 produced: Item-16 (Total produced: 13)
+Consumer-1 consumed: Item-6 (Total consumed: 10)
+Consumer-2 consumed: Item-15 (Total consumed: 11)
+Consumer-1 consumed: Item-7 (Total consumed: 12)
+Producer-1 produced: Item-8 (Total produced: 14)
+Consumer-2 consumed: Item-16 (Total consumed: 13)
+Producer-2 produced: Item-17 (Total produced: 15)
+Consumer-1 consumed: Item-8 (Total consumed: 14)
+Producer-1 produced: Item-9 (Total produced: 16)
+Consumer-2 consumed: Item-17 (Total consumed: 15)
+Producer-2 produced: Item-18 (Total produced: 17)
+Consumer-1 consumed: Item-9 (Total consumed: 16)
+Producer-1 produced: Item-10 (Total produced: 18)
+Producer-1 finished producing.
+Producer-2 produced: Item-19 (Total produced: 19)
+Consumer-1 consumed: Item-10 (Total consumed: 17)
+Consumer-2 consumed: Item-18 (Total consumed: 18)
+Producer-2 produced: Item-20 (Total produced: 20)
+Producer-2 finished producing.
+
+All producers finished. Sending termination signal...
+Consumer-1 consumed: Item-19 (Total consumed: 19)
+Consumer-1 received termination signal.
+Consumer-1 finished consuming.
+Consumer-2 consumed: Item-20 (Total consumed: 20)
+Consumer-2 received termination signal.
+Consumer-2 finished consuming.
+
+=== Final Results ===
+Total Items Produced: 20
+Total Items Consumed: 20
+Source Container Size: 20
+Destination Container Size: 20
+Items Match: true
+
+Destination Contents:
+  Item-11
+  Item-12
+  Item-1
+  Item-2
+  Item-3
+  Item-13
+  Item-4
+  Item-5
+  Item-14
+  Item-6
+  Item-15
+  Item-7
+  Item-16
+  Item-8
+  Item-17
+  Item-9
+  Item-10
+  Item-18
+  Item-19
+  Item-20

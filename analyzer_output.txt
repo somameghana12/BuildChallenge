@@ -1,0 +1,99 @@
+Loading sales data from: sales_data.csv
+Data loaded successfully: 30 records
+
+================================================================
+           SALES DATA ANALYSIS RESULTS                          
+================================================================
+Total records processed: 30
+
+=== BASIC AGGREGATIONS ===
+1. Total Revenue: $27,200.00
+2. Average Order Value: $906.67
+
+=== REGIONAL ANALYSIS ===
+3. Total Sales by Region:
+   North     : $ 10,350.00
+   West      : $  5,900.00
+   East      : $  5,650.00
+   South     : $  5,300.00
+
+4. Average Sales by Region:
+   North     : $  1,293.75
+   West      : $    842.86
+   East      : $    807.14
+   South     : $    662.50
+
+5. Order Count by Region:
+   West      : 7 orders
+   South     : 8 orders
+   North     : 8 orders
+   East      : 7 orders
+
+=== CATEGORY ANALYSIS ===
+6. Total Sales by Category:
+   Electronics    : $ 16,800.00
+   Furniture      : $ 10,400.00
+
+7. Average Price by Category:
+   Electronics    : $  412.50
+   Furniture      : $  325.00
+
+8. Sales Statistics by Category:
+   Electronics:
+      Count: 20, Min: $125.00, Max: $2400.00, Avg: $840.00, Total: $16800.00
+   Furniture:
+      Count: 10, Min: $450.00, Max: $1800.00, Avg: $1040.00, Total: $10400.00
+
+=== PRODUCT ANALYSIS ===
+9. Top 5 Products by Revenue:
+   Laptop         : $  8,400.00
+   Desk           : $  5,400.00
+   Chair          : $  5,000.00
+   Monitor        : $  4,900.00
+   Keyboard       : $  2,250.00
+
+10. Total Quantity Sold by Product:
+   Mouse          :   50 units
+   Keyboard       :   30 units
+   Chair          :   25 units
+   Monitor        :   14 units
+   Desk           :   12 units
+   Laptop         :    7 units
+
+11. Products by Category:
+   Electronics    : [Laptop, Monitor, Mouse, Keyboard]
+   Furniture      : [Chair, Desk]
+
+=== TEMPORAL ANALYSIS ===
+12. Monthly Sales Trend:
+   2024-01   : $ 12,975.00
+   2024-02   : $ 14,225.00
+
+13. Yearly Sales:
+   2024      : $ 27,200.00
+
+=== ADVANCED ANALYSIS ===
+14. Highest Value Order:
+   Order[ORD001, North, Laptop, $1200.00 x 2 = $2400.00, 2024-01-15]
+
+15. Orders Above $1000:
+   Order[ORD001, North, Laptop, $1200.00 x 2 = $2400.00, 2024-01-15]
+   Order[ORD019, North, Laptop, $1200.00 x 2 = $2400.00, 2024-02-03]
+   Order[ORD020, East, Desk, $450.00 x 4 = $1800.00, 2024-02-04]
+   Order[ORD023, North, Monitor, $350.00 x 4 = $1400.00, 2024-02-07]
+   Order[ORD027, North, Chair, $200.00 x 7 = $1400.00, 2024-02-11]
+   Order[ORD014, South, Desk, $450.00 x 3 = $1350.00, 2024-01-28]
+   Order[ORD007, East, Laptop, $1200.00 x 1 = $1200.00, 2024-01-21]
+   Order[ORD013, West, Laptop, $1200.00 x 1 = $1200.00, 2024-01-27]
+   Order[ORD021, West, Chair, $200.00 x 6 = $1200.00, 2024-02-05]
+   Order[ORD025, West, Laptop, $1200.00 x 1 = $1200.00, 2024-02-09]
+
+16. Revenue Percentage by Region:
+   North     :  38.05%
+   West      :  21.69%
+   East      :  20.77%
+   South     :  19.49%
+
+================================================================
+                   ANALYSIS COMPLETE                            
+================================================================
